@@ -20,7 +20,7 @@ public class RegistrationPage {
 	@FindBy(id = "email")
 	private WebElement userNameTxt;
 	
-	@FindBy(id = "password")
+	@FindBy(name = "password")
 	private WebElement passwordTxt;
 	
 	@FindBy(name = "confirmPassword")

@@ -1,0 +1,15 @@
+<suite name= "search-module">
+	<test name = "search-module">
+		<parameter name="keyword" value = "java" />
+		<classes>			
+			<class name = "com.searchmodule.test.SearchTest" />
+		</classes>
+	</test>
+	
+	<test name = "search-test-qa">
+		<parameter name="keyword" value="qa"/>
+		<classes>
+			<class name = "com.searchmodule.test.SearchTest"/>
+		</classes>
+	</test>
+</suite>
